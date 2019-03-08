@@ -4,7 +4,7 @@ const routes = require('./config/routes')
 
 const app = express()
 
-mongoose.connect('mongodb://localhost/goodbye_mike')
+mongoose.connect(`mongodb://localhost/${process.env.MONGODB_URI}`)
 
 app.use('/api', routes)
 
