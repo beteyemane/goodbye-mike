@@ -1,0 +1,32 @@
+{
+  "name": "goodbye-mike",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "bulma": "^0.7.4",
+    "css-loader": "^2.1.1",
+    "dotenv": "^6.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.4.17",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "scripts": {
+    "start": "node index",
+    "serve": "webpack-dev-server --mode=development",
+    "seed": "node db/seeds"
+  }
+}

@@ -1,0 +1,45 @@
+* {
+  font-family: "Helvetica";
+  letter-spacing: 0.1em;
+  background-color: #345858 !important;
+  color: white;
+}
+
+h1.title, h1.subtitle {
+  text-align: center;
+  color: white;
+}
+
+div.card-header, section.card {
+  border: none;
+  box-shadow: none;
+}
+
+div.card-content {
+  background-color: #152226;
+}
+section.card {
+  border-bottom: 1px solid white;
+}
+
+p.card-header-title {
+  color: white;
+}
+
+div.user {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  margin: 10px;
+  // background-color: #152226;
+}
+
+div.user:hover{
+    background: rgba(255, 255, 255, 0.9);
+}
+
+img {
+    position: relative;
+    z-index: -1;
+}
