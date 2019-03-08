@@ -27,6 +27,7 @@
   "scripts": {
     "start": "node index",
     "serve": "webpack-dev-server --mode=development",
-    "seed": "node db/seeds"
+    "seed": "node db/seeds",
+    "build": "webpack -p"
   }
 }
