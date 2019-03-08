@@ -45,7 +45,7 @@ mongoose.connect(process.env.MONGODB_URI, (err, db) => {
         ben: Student.create({
           name: 'Ben',
           image: 'https://media.licdn.com/dms/image/C4D03AQH2cx33iM6FHw/profile-displayphoto-shrink_800_800/0?e=1557360000&v=beta&t=WfIbw-2pj1GzTm1lv2I84yk3dpakNGpeqIS7q3X7UC4',
-          comment: 'Ben\'s comment',
+          comment: 'Mike, thanks so much for an absolutely incredible twelve weeks. You enthusiasm for code has been infections, and has made you a great teacher. Also, hope you make it through Brexit (that’s an aside). Ben',
           linkedin: 'https://www.linkedin.com/in/ben-lander/'
         }),
         ed: Student.create({
