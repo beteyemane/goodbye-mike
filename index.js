@@ -8,7 +8,7 @@ mongoose.connect('mongodb://localhost/goodbye_mike')
 
 app.use('/api', routes)
 
-app.listen(4000, () => console.log('We up on 4k! 🙌🏽'))
+app.listen(process.env.PORT, () => console.log('We up on 4k! 🙌🏽'))
 
 
 // where do we write our nice comments :)
