@@ -8,6 +8,9 @@ mongoose.connect('mongodb://localhost/goodbye_mike')
 
 app.use('/api', routes)
 
+app.get('/*', (req, res) => res.sendFile(`${__dirname}/dist/index.html`))
+
+
 app.listen(process.env.PORT, () => console.log('We up on 4k! 🙌🏽'))
 
 
