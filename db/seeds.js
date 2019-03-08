@@ -50,7 +50,7 @@ mongoose.connect(process.env.MONGODB_URI, (err, db) => {
         }),
         ed: Student.create({
           name: 'Ed',
-          image: 'https://media.licdn.com/dms/image/C4E03AQFaJHgOnJSs0w/profile-displayphoto-shrink_800_800/0?e=1557360000&v=beta&t=b62Fi8ISLYUC1hoz1PXghbZvUW0iBent1KegVFHYm3I',
+          image: 'https://media.licdn.com/dms/image/C5603AQFAjTK98t03gw/profile-displayphoto-shrink_800_800/0?e=1557360000&v=beta&t=Yz5xYZRrLEebbi_Llfp26SNVX21dpuBGH0FFGnKfmzc',
           comment: 'Mike, it’s been an emotional 12 weeks of ups, downs and coding dreams. Your passion for coding is so infectious and you’ve now turned me into one of those people who codes for ‘fun’, ...at the weekend. Serious though, thank you for everything you’ve done for me over the last few months, I can’t imagine my WDI experience without you. Look forward to buying you an Espresso Martini when I get a job. All the best, Ed',
           linkedin: 'https://www.linkedin.com/in/edward-lea-5a082a27/'
         }),
