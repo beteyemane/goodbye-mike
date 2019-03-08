@@ -8,7 +8,6 @@ const app = express()
 
 const uri = process.env.MONGODB_URI
 mongoose.connect(uri)
-console.log(process.env.MONGODB_URI)
 app.use('/api', routes)
 
 app.use(express.static(`${__dirname}/dist`))
