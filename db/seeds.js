@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGODB_URI, (err, db) => {
         dex: Student.create({
           name: 'Dexter',
           image: 'https://media.licdn.com/dms/image/C5603AQFYda9CS-F1mw/profile-displayphoto-shrink_800_800/0?e=1557360000&v=beta&t=-744tSmSZZKYjYFqtqxrq4-nR1GOhCQTDIywWXvJ5Cc',
-          comment: 'Sup',
+          comment: 'Mike, coming to do this course has probably been the best decision I’ve made so far and that’s in no small part to your excellent attitude to teaching, your comical rants, and outlandish analogies. It’s been an insane 12 weeks and I’m definitely looking forward to the next 12. 😇',
           linkedin: 'https://www.linkedin.com/in/dexter-de-leon/'
         }),
         james: Student.create({
@@ -103,7 +103,7 @@ mongoose.connect(process.env.MONGODB_URI, (err, db) => {
         nawal: Student.create({
           name: 'Nawal',
           image: 'https://media.licdn.com/dms/image/C4D03AQFBYwMPOctShw/profile-displayphoto-shrink_800_800/0?e=1557360000&v=beta&t=v4hhkHGuTCSwhRuARnqOkqdMfmYMez_Bm2dD6RY8dNY',
-          comment: 'Yo Bboy Mike, thanks for making this past 12 weeks super fun! You’ve put up with all the ups and downs and encouraged me to learn more. I am grateful for your help through out this amazing coding journey! I’ll take it away all the knowledge and build some SICK! APPS Bruv... Take Care &  Keep Breaking Moves at JuJu’s!!!',
+          comment: 'Yo Bboy Mike, thanks for making this past 12 weeks super fun! You’ve put up with all the ups and downs and encouraged me to learn more. I am grateful for your help through out this amazing coding journey! I’ll take it away all the knowledge and build some SICK! APPS Bruv... Take Care &  Keep Breaking Moves at JuJu’s!!! 🕺',
           linkedin: 'https://www.linkedin.com/in/nawal-gurung/'
         }),
         jeremy: Student.create({
