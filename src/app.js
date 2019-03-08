@@ -35,7 +35,7 @@ class App extends React.Component{
           <div className="container">
             <h1 className="title">GOODBYE MIKE</h1>
             <h1 className="subtitle">-WDI 38 ❤️</h1>
-            <p className="card-header-title">8 comments</p>
+            <p className="card-header-title">16  comments</p>
 
             {this.state.students.map(student =>
               <section key={student.name} className="card">
