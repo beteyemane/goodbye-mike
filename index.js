@@ -1,13 +1,17 @@
+require('dotenv').config()
+
 const express = require('express')
 const mongoose = require('mongoose')
 const routes = require('./config/routes')
 
 const app = express()
 
-mongoose.connect(`mongodb://localhost/${process.env.MONGODB_URI}`)
+
+mongoose.connect(process.env.MONGODB_URI)
 
 app.use('/api', routes)
 
+app.use(express.static(`${__dirname}/dist`))
 app.get('/*', (req, res) => res.sendFile(`${__dirname}/dist/index.html`))
 
 
