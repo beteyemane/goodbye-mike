@@ -6,9 +6,9 @@ const routes = require('./config/routes')
 
 const app = express()
 
-
-mongoose.connect(process.env.MONGODB_URI)
-
+const uri = process.env.MONGODB_URI
+mongoose.connect(uri)
+console.log(process.env.MONGODB_URI)
 app.use('/api', routes)
 
 app.use(express.static(`${__dirname}/dist`))
