@@ -115,7 +115,7 @@ mongoose.connect(process.env.MONGODB_URI, (err, db) => {
         begona: Student.create({
           name: 'Begona',
           image: 'https://media.licdn.com/dms/image/C4D03AQGmHfRbcXexlg/profile-displayphoto-shrink_800_800/0?e=1557360000&v=beta&t=eUmMm5hz0xZU0-KnjUg_AE7nBzbYlel1609lQW-YqCY',
-          comment: 'Begona comment',
+          comment: 'I will miss your banter. Oh and the complicated analogies that you used to illustrate things. They were epic',
           linkedin: 'https://www.linkedin.com/in/begoname/'
         }),
         mike: Student.create({
